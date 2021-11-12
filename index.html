@@ -366,9 +366,27 @@
 	<h2>Thank you!</h2>
 	
 	<div class = "outlinebox">
-	<a href = "mailto:eriksandpile@gmail.com">
-	<h3>You can reach me at eriksandpile@gmail.com</h3>
-	</a>
+		<h2>Contact me at eriksandpile@gmail.com</h2>
+		<form action="mailto:eriksandpile@gmail.com" method="get" enctype="text/plain">
+		<div>
+		<label for="name">Name:
+		  <input type="text" name="name" id="name" />
+		</label>
+		</div>
+		<div>
+		<label for="email">Email:
+		  <input type="text" name="email" id="email" />
+		</label>
+		</div>
+		<div>
+		<label>Comments:</label>
+		<br />
+		<textarea name="comments" rows="12" cols="35">Your message goes here.</textarea>
+		</div>
+		<div>
+		<input type="submit" name="submit" value="Send" />
+		<input type="reset" name="reset" value="Clear Form" />
+		</div>
 	</div>
 
 	</Body>
